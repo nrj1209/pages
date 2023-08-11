@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pages/static/css/main.73f2d5dc.css",
+    "main.js": "/pages/static/js/main.01b24a16.js",
+    "static/js/787.28cb0dcd.chunk.js": "/pages/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bed1.png": "/pages/static/media/bed1.22c237edbe1a5f3d9c5f.png",
+    "static/media/rightlog.png": "/pages/static/media/rightlog.179a211c884d091282f7.png",
+    "static/media/leftlog.png": "/pages/static/media/leftlog.84e1cb449d35bf576639.png",
+    "static/media/table1.png": "/pages/static/media/table1.20f27d92848636bb0d91.png",
+    "static/media/timberlogo.svg": "/pages/static/media/timberlogo.e2c2e5539d24bdc001c9e0869d04c447.svg",
+    "static/media/wooden.jpeg": "/pages/static/media/wooden.c2e60389c4f1281d94db.jpeg",
+    "static/media/timberbg.jpeg": "/pages/static/media/timberbg.84208b83e4742587b99b.jpeg",
+    "static/media/timberbottom.jpeg": "/pages/static/media/timberbottom.6e80d9e5576619728a3d.jpeg",
+    "static/media/woodenbg.png": "/pages/static/media/woodenbg.af5eb6fc69b0dd57978f.png",
+    "static/media/drawing.png": "/pages/static/media/drawing.4cf82a2aae6de38eeda4.png",
+    "static/media/img1.jpeg": "/pages/static/media/img1.3cd2e45704aaa083b37e.jpeg",
+    "static/media/bg.jpeg": "/pages/static/media/bg.2bb08a458e468a2dd2a0.jpeg",
+    "static/media/hall.png": "/pages/static/media/hall.31e5d61ffcf9d316080b.png",
+    "static/media/Angello.ttf": "/pages/static/media/Angello.974e197d55330b705ce1.ttf",
+    "static/media/skywalks.ttf": "/pages/static/media/skywalks.26570f1d46ba1e1aa786.ttf",
+    "static/media/nagaland.jpg": "/pages/static/media/nagaland.a965df2a6821fe495c75.jpg",
+    "index.html": "/pages/index.html",
+    "main.73f2d5dc.css.map": "/pages/static/css/main.73f2d5dc.css.map",
+    "main.01b24a16.js.map": "/pages/static/js/main.01b24a16.js.map",
+    "787.28cb0dcd.chunk.js.map": "/pages/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73f2d5dc.css",
+    "static/js/main.01b24a16.js"
+  ]
+}
