@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Skywalks";
+  src: local("skywalks"),
+    url("../src/fonts/skywalks.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Angello";
+  src: local("Angello"),
+    url("../src/fonts/Angello.ttf") format("truetype");
+  font-weight: normal;
+}
