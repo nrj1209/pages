@@ -6,11 +6,11 @@
 
 .timber-Component2-div{
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background-color: #FEE8D0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+        justify-content: space-around;
     align-items: center;
     padding-left: 23px;
     padding-right: 23px;
@@ -42,6 +42,14 @@
     width: 100%;
     max-width: 180px;
 }
+.timber-Component2-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+
+}
 
 @media screen and (min-width: 768px){
     .timber-Component2-line{
@@ -54,6 +62,7 @@
 
     .timber-Component2-name{
         font-size: 40px;
+        
     }
 
 }

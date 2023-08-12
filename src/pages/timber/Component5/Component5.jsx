@@ -13,9 +13,9 @@ const Component5 = () => {
                         <div className='timber-Component5-div2-1-1'>
                             Moment Name
                         </div>
-                        <div className='timber-Component5-div2-1-2'>
+                        <p className='timber-Component5-div2-1-2'>
                             Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta.
-                        </div>
+                        </p>
                     </div>
                     <div className='timber-Component5-div2-2'>
                         <div className='timber-Component5-div2-2-1'>2002</div>
