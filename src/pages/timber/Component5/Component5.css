@@ -15,18 +15,20 @@
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 0px;
 }
 .timber-Component5-heading{
 
     /* width: 100%; */
-    color: var(--white, #262626);
+    color: var(--white, white);
+    background-color: #262626;
     font-family: 'Skywalks';
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 25px;
-    margin-top: 45px;
+    padding: 8px;
+    margin-top: 15px;
     margin-bottom: 35px;
     text-align: center;
 
@@ -38,8 +40,8 @@
 .timber-Component5-div2{
     min-height: 30vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     gap : 30px;
     align-items: center;
     background-color: #262626;
@@ -48,8 +50,11 @@
     width: 100%;
     max-width: 234px;
     position: relative;
-    top: 33px;
+    top: -35px;
     padding-bottom: 15px;
+    max-width: 320px; 
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .timber-Component5-div2-1{
     display: flex;
@@ -72,9 +77,9 @@
 
 .timber-Component5-div2-1-2{
     color: var(--white, #FFF);
-    text-align: center;
+    text-align: left;
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; 
@@ -85,7 +90,8 @@
 .timber-Component5-div2-2{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     color: white;
     min-height: 7vh;
@@ -95,7 +101,7 @@
 .timber-Component5-div2-2-1{
     color: var(--white, #FFF);
     text-align: center;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -109,26 +115,32 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 10.5px; /* 58.333% */
+    line-height: 20.5px; /* 58.333% */
 }
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 426px) {
     .timber-Component5-div{
         min-height: 100vh;
     }
+}
+@media screen and (min-width:768px) {
+    
     .timber-Component5-heading{
-        margin-top: 105px;
+        margin-top: 15px;
     }
 
     .timber-Component5-div2{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         max-width: 900px;
         height: 50vh;
         position: relative;
         top: -107px;
         padding-bottom: 20px;
+    }
+    .timber-Component5-div2-2{
+        gap: 0px;
     }
 
     .timber-Component5-div2-2-1{
@@ -156,7 +168,8 @@
     }
 
     .timber-Component5-div2-1{
-        align-items:flex-start;
+        justify-content: space-between;
+        align-items: flex-start;
     }
     .timber-Component5-div2-1-1{
         font-size: 40px;

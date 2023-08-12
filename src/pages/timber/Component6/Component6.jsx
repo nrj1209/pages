@@ -6,12 +6,14 @@ const Component6 = () => {
         <div className='timber-Component6-heading-img'>
             <p className='timber-Component6-heading-content'>BAWRI TIMBER</p>
         </div>
-        <p className='timber-since'>
-            Since
-        </p>
-        <p className='timber-year'>
-            2002
-        </p>
+        <div className='timber-Component6-time'>
+          <p className='timber-since'>
+              Since
+          </p>
+          <p className='timber-year'>
+              2002
+          </p>
+        </div>
     </div>
   )
 }

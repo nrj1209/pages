@@ -10,7 +10,8 @@
     background-color: #FEE8D0;
     display: flex;
     flex-direction: column;
-        justify-content: space-around;
+    justify-content: center;
+    gap: 13px;
     align-items: center;
     padding-left: 23px;
     padding-right: 23px;

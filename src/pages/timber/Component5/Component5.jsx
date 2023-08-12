@@ -18,8 +18,8 @@ const Component5 = () => {
                         </p>
                     </div>
                     <div className='timber-Component5-div2-2'>
-                        <div className='timber-Component5-div2-2-1'>2002</div>
-                        <div className='timber-Component5-div2-2-2'>Kolkata</div>
+                        <div className='timber-Component5-div2-2-1'>2012</div>
+                        <div className='timber-Component5-div2-2-2'>Kolkata, India</div>
                     </div>
 
                 </div>
