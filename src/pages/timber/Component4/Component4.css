@@ -13,8 +13,8 @@
     justify-content: flex-start;
     gap: 35px;
     align-items: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .timber-Component4-heading{
@@ -60,7 +60,7 @@
             align-items: center;
         }
         .timber-Component4-div{
-            height: 100vh;
+            min-height: 80vh;
 
             /* padding-top: 10px; */
         }
