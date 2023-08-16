@@ -1,5 +1,5 @@
 .antiques-Component3-div {
-    min-height: 130vh;
+    /* min-height: 130vh; */
     width: 100%;
     background-image: url('../assets/antiquesbg.png');
     display: flex;
@@ -58,14 +58,14 @@
 }
 
 .antiques-Component3-left {
-    width: 75px;
+    width: 65px;
 }
 
 .antiques-Component3-right {
-    width: 75px;
+    width: 65px;
 }
 .antiques-Component3-middle {
-    width: 75px;
+    width: 62px;
 }
 
 

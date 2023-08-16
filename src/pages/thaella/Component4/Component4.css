@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.timber-Component4-div{
+.thaella-Component4-div{
     min-height: 80vh;
     width: 100%;
     background-color: #FDDB60;
@@ -17,7 +17,7 @@
     padding-bottom: 30px;
 }
 
-.timber-Component4-heading{
+.thaella-Component4-heading{
     color: var(--black, #262626);
     font-family: 'Skywalks';
     font-size: 28px;
@@ -25,7 +25,7 @@
     font-weight: 400;
     line-height: normal;
 }
-.timber-Component4-main{
+.thaella-Component4-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,12 +34,12 @@
     gap: 20px;
 }
 
-.timber-Component4-img{
+.thaella-Component4-img{
     width: 100%;
     max-width: 255.5px;
 }
 
-.timber-Component4-content{
+.thaella-Component4-content{
     width: 100%;
     max-width: 297px;
     color: var(--black, #262626);
@@ -52,22 +52,22 @@
 }
 
 @media screen and (min-width: 768px) {
-        .timber-Component4-main{
+        .thaella-Component4-main{
             display: flex;
             flex-direction: row;
             justify-content: center;    
             gap: 200px;
             align-items: center;
         }
-        .timber-Component4-div{
+        .thaella-Component4-div{
             min-height: 100vh;
 
             /* padding-top: 10px; */
         }
-        .timber-Component4-heading{
+        .thaella-Component4-heading{
             font-size: 72px;
         }
-        .timber-Component4-content{
+        .thaella-Component4-content{
             font-size: 20px;
             max-width: 560px;
             text-align: left;

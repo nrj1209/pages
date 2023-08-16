@@ -4,22 +4,22 @@
     box-sizing: border-box;
 }
 
-.antiques-Component2-div{
+.thaella-Component2-div{
     width: 100%;
-    /* height: 50vh; */
+    min-height: 30vh;
     background-color: #FEE8D0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 13px;
     align-items: center;
-    padding-left: 23px;
-    padding-right: 23px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 23px;
+    padding-right: 23px;
 }
 
-.antiques-Component2-text{
+.thaella-Component2-text{
     color: #262626;
     text-align: center;
     font-family: 'Skywalks';
@@ -30,7 +30,7 @@
     letter-spacing: 1px;
 }
 
-.antiques-Component2-name{
+.thaella-Component2-name{
     color: var(--black, #262626);
     text-align: center;
     font-family: 'Angello';
@@ -41,28 +41,29 @@
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.antiques-Component2-line{
+.thaella-Component2-line{
     width: 100%;
     max-width: 180px;
 }
-.antiques-Component2-bottom{
+.thaella-Component2-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap : 10px;
+
 }
 
 @media screen and (min-width: 768px){
-    .antiques-Component2-line{
+    .thaella-Component2-line{
         max-width: 270px;
     }   
 
-    .antiques-Component2-text{
+    .thaella-Component2-text{
         max-width: 450px;
     }
 
-    .antiques-Component2-name{
+    .thaella-Component2-name{
         font-size: 40px;
         
     }
