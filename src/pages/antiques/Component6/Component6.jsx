@@ -4,7 +4,7 @@ const Component6 = () => {
   return (
     <div className='antiques-Component6-div'>
         <div className='antiques-Component6-heading-img'>
-            <p className='antiques-Component6-heading-content'>SAROJ ANTIIQUES</p>
+            <p className='antiques-Component6-heading-content'>SAROJ ANTIQUES</p>
         </div>
         <div className='antiques-Component6-time'>
           <p className='antiques-since'>

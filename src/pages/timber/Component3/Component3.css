@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .timber-Component3-heading {
@@ -16,7 +17,7 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 20px;
-    margin-bottom: 1px;
+    margin-bottom: 13px;
 }
 
 .timber-Component3-div2 {

@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Component3-div{
+    background-image: url('../assets/thaellamain.png');    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.Component3-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Component3-heading{
+background-color:#262626;
+font-family: 'Skywalks';
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: white;
+}
+.Component3-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: left;
+    width: 100%;
+    height: 100%;
+}
+.Component3-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.Component3-heading-content{
+    background-color: #262626;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.Component3-left-img{
+    width: 30px;
+}
+.Component3-right-img{
+     width: 30px;
+}
+
