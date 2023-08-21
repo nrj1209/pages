@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 .antiques-Component3-heading {
@@ -94,4 +94,21 @@
         max-width: 700px;
         width: 100%;
     }
+}
+
+@media screen and (min-width: 742px) and (max-width: 970px){
+    .antiques-Component3-left {
+    width: 55px;
+}
+
+.antiques-Component3-right {
+    width: 55px;
+}
+.antiques-Component3-middle {
+    width: 55px;
+}
+.antiques-Component3-img-container{
+    justify-content: space-around;
+}
+
 }

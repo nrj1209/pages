@@ -11,7 +11,8 @@ const Component5 = () => {
                 <div className='antiques-Component5-div2'>
                     <div className='antiques-Component5-div2-1'>
                         <div className='antiques-Component5-div2-1-1'>
-                            Spreading Happiness - Delighting Clients
+                            <p className='antiques-Component5-text'>Spreading Happiness</p>
+                            <p className='antiques-Component5-text'>Delighting Clients</p>
                         </div>
                         <p className='antiques-Component5-div2-1-2'>
                             Saroj Antiques found a first-edition copy of ‘Great Expectations’ for a collector who had been scouring for the book for years. The collector said it was among the happiest moments in their life.                         </p>
