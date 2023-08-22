@@ -6,7 +6,7 @@ const Component6 = () => {
     <div className='antiques-Component6-div'>
         <div className='antiques-Component6-heading'>
             <img src={nagaland} className='antiques-Component6-heading-img'/>
-            <p className='antiques-Component6-heading-content'>SAROJ </p>
+            <p className='antiques-Component6-heading-content'>SAROJ ANTIQUES </p>
         </div>
         <div className='antiques-Component6-time'>
           <p className='antiques-since'>
