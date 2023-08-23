@@ -3,22 +3,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.plywood-Component2-heading{
+    color: #262626;
+    font-family: 'Skywalks';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: 45px;
+    margin-bottom: 30px; */
+    text-transform: capitalize;
+}
+.plywood-Component2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .plywood-Component2-div{
     width: 100%;
-    height: 60vh;
+    /* height: 50vh; */
     background-color: #FEE8D0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 13px;
     align-items: center;
     padding-left: 23px;
     padding-right: 23px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .plywood-Component2-text{
     color: #262626;
-    text-align: center;
+    text-align: left;
     font-family: 'Skywalks';
     font-size: 16px;
     font-style: normal;
@@ -38,9 +58,23 @@
     letter-spacing: 1px;
     text-transform: capitalize;
 }
+.plywood-Component-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
 .plywood-Component2-line{
     width: 100%;
     max-width: 180px;
+}
+.plywood-Component2-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
 }
 
 @media screen and (min-width: 768px){
@@ -54,6 +88,10 @@
 
     .plywood-Component2-name{
         font-size: 40px;
+        
+    }
+    .plywood-Component2-heading{
+        font-size: 52px;
     }
 
 }
