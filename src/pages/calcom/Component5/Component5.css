@@ -1,10 +1,11 @@
-.vinay-Component5-main{
+.calcom-Component5-main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-.vinay-Component5-div{
+.calcom-Component5-div{
     width: 100%;
     /* min-height: 100vh; */
     background-color: white;
@@ -15,8 +16,10 @@
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 45px;
+   
 }
-.vinay-Component5-heading{
+.calcom-Component5-heading{
 
     /* width: 100%; */
     color: var(--white, white);
@@ -33,64 +36,67 @@
 
 }
 
-.vinay-Component5-img{
+.calcom-Component5-img{
     width: 100%;
 }
-.vinay-Component5-div2{
-    /* max-height: 30vh; */
+.calcom-Component5-div2{
+    /* min-height: 30vh; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap : 30px;
+    gap : 25px;
     align-items: center;
     background-color: #262626;
     /* height: 40vh; */
     border-radius: 10px;
     width: 100%;
-    max-width: 234px;
     position: relative;
     top: -35px;
-    /* padding-bottom: 15px; */
-    max-width: 320px; 
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px;
+    padding-bottom: 15px;
+    max-width: 300px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 14px;
     padding-bottom: 10px;
 }
-.vinay-Component5-div2-1{
+.calcom-Component5-div2-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    align-items: flex-start;
 }
-.vinay-Component5-div2-1-1{
+
+
+.calcom-Component5-text{
     color: var(--white, #FFF);
     text-align: center;
     font-family: 'Skywalks';
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%/* 48px */;
+    line-height: 100%;
     letter-spacing: 1px;
-    
+    align-items: left;
+    text-align: left;
+    padding-left: 0px;
+    /* white-space: nowrap; */
 }
 
 
-
-
-.vinay-Component5-div2-1-2{
+.calcom-Component5-div2-1-2{
     color: var(--white, #FFF);
     text-align: left;
-    font-family: 'Inter';
+    font-family: 'Lato';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15px; 
-    padding-left: 10px;
+    line-height: 25px; 
+    /* padding-left: 10px; */
     padding-right: 10px;
 }
 
-.vinay-Component5-div2-2{
+.calcom-Component5-div2-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,7 +107,7 @@
 
 }
 
-.vinay-Component5-div2-2-1{
+.calcom-Component5-div2-2-1{
     color: var(--white, #FFF);
     text-align: center;
     font-family: 'Lato';
@@ -111,7 +117,7 @@
     line-height: 10.5px; /* 58.333% */
 }
 
-.vinay-Component5-div2-2-2{
+.calcom-Component5-div2-2-2{
     color: var(--white, #FFF);
     text-align: center;
     font-family: Lato;
@@ -121,33 +127,46 @@
     line-height: 20.5px; /* 58.333% */
     white-space: nowrap;
 }
-@media screen and (min-width: 426px) {
-    /* .vinay-Component5-div{
+@media screen and (min-width: 424px) {
+    /* .calcom-Component5-div{
         min-height: 100vh;
     } */
-}
-@media screen and (min-width:768px) {
-    
-    .vinay-Component5-heading{
-        margin-top: 15px;
+    .calcom-Component5-div2{
+        max-width: 350px;
     }
 
-    .vinay-Component5-div2{
+}
+@media screen and (min-width:768px) {
+
+     .calcom-Component5-div2-1-2{
+        padding-left: 10px;
+    }
+    .calcom-Component5-text{
+        font-size: 30px;
+    }
+    .calcom-Component5-heading{
+        margin-top: 15px;
+        padding: 10px;
+    }
+    .calcom-Component5-text{
+        padding-left: 6px;
+    }
+    .calcom-Component5-div2{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        max-height: 50vh;
+        max-width: 900px;
+        /* height: 50vh; */
         position: relative;
         top: -107px;
         padding-bottom: 20px;
-        max-width: 750px;
     }
-    .vinay-Component5-div2-2{
+    .calcom-Component5-div2-2{
         gap: 0px;
     }
 
-    .vinay-Component5-div2-2-1{
+    .calcom-Component5-div2-2-1{
         color: var(--white, #FFF);
         text-align: center;
         font-family: Lato;
@@ -155,10 +174,10 @@
         font-style: normal;
         font-weight: 400;
         line-height: 21px; /* 58.333% */
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
-    .vinay-Component5-div2-1-2{
+    .calcom-Component5-div2-1-2{
         color: var(--white, #FFF);
         font-family: 'Inter';
         font-size: 16px;
@@ -167,22 +186,30 @@
         line-height: 24px; /* 150% */
         max-width: 387px;
     }
-    .vinay-Component5-img{
+    .calcom-Component5-img{
         max-width: 1000px;
     }
 
-    .vinay-Component5-div2-1{
-        justify-content: space-between;
+    .calcom-Component5-div2-1{
+        justify-content: center;
+        gap: 20px;
         align-items: flex-start;
+        text-align: left;
     }
-    .vinay-Component5-div2-1-1{
-        font-size: 40px;
-        padding-top: 20px;
+   
+    .calcom-Component5-div2-2-2{
+        font-size: 32px;
+
     }
+    .calcom-Component5-div2-2-1{
+        font-size: 32px;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width: 1000px)  {
-    .vinay-Component5-div2{
+    .calcom-Component5-div2{
         top: -70px
     }
+   
 }

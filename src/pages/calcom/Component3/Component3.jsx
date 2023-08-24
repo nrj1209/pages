@@ -1,21 +1,20 @@
 import React from 'react'
 import  './Component3.css'
-import left from '../assets/left.png'
-import right from '../assets/right.png'
+import leftlogo from '../assets/left.png'
+import rightlogo from '../assets/right.png'
 const Component3 = () => {
   return (   
-    <div className=' vinay-Component3-div'>
-        <p className=' vinay-Component3-heading'>How We Started?</p>
-        <div className=' vinay-Component3-div2'>
-          <p className='vinay-Component3-div2-1'>
-          In the early 1980s we were in the process of building our house. Six months later, the builder told us he had to halt construction because there was a shortage of cement. We scoped the market but demand far outstripped supply and we had to stop construction for over three months.
-          </p>
-          <p className='vinay-Component3-div2-2'>
-          People say one of my strengths is ‘root-cause analysis’ and going beyond the obvious. I spent those three months understanding the reasons for the asymmetry between demand and supply; learning how cement is manufactured; and understanding the technology, processes, and logistics. I discovered Assam was a prime spot to manufacture cement. After six months of research, brainstorming, and due diligence, opportunity beckoned. The rest is history, Vinay Cements was born the following year. </p>
+    <div className=' calcom-Component3-div'>
+        <p className=' calcom-Component3-heading'>How We Started?</p>
+        <div className=' calcom-Component3-div2'>
+          <p className='calcom-Component3-div2-text'>
+          After growing calcom Cements for over 15 years, we realized there was another dire shortage of cement in North-East India in the early 2000s. Infrastructural development was at an all-time high and cement prices were soaring because of the deficit in supply. Paradoxically the region still had a wealth of untapped raw materials. ​It was a rare opportunity to turn economic struggles into triumph and it sparked the inception of Calcom Cements​.          </p>
+          <p className='calcom-Component3-div2-text'>
+          The company is a manifestation of the founders ​visionary ​leadership, ​strategic ingenuity, and audacious risk-taking​. This was ​fortified by the​ir ​deep understanding of supply chain dynamics, a ​rich ​two-decade legacy in the cement industry, and over forty years of industrial acumen.​ ​​As a beacon of innovation ​Calcom ​reshaped industry benchmarks with an EBITDA that eclipses the industry average by 2.5 times. ​​​The company is a testament to the​ ​​founders' ​unyielding perseverance​ and hard work.          </p>
         </div>
-        <div className=' vinay-Component3-img-container'>
-            <img className=' vinay-Component3-bed' src={left}/>
-            <img className=' vinay-Component3-table' src={right}/>
+        <div className=' calcom-Component3-img-container'>
+            <img className=' calcom-Component3-left' src={leftlogo}/>
+            <img className=' calcom-Component3-right' src={rightlogo}/>
         </div>
     </div>
   )

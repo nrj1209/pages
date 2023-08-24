@@ -1,8 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.vinay-Component1-div{
-    background-image: url('../assets/vinaybg.jpeg');
+.calcom-Component1-div{
+    background-image: url('../assets/calcombg.jpeg');
     height: 50vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -16,11 +16,11 @@
 }
 
 @media screen and (min-width: 768px) {
-    .vinay-Component1-div{
+    .calcom-Component1-div{
         height: 100vh;
     }
 
-    .vinay-Component1-content{
+    .calcom-Component1-content{
         font-size: 120px;
     }
 
@@ -29,7 +29,7 @@
 
 
 
-.vinay-Component1-content{
+.calcom-Component1-content{
     color: white;
     font-family: 'Lato';
     font-size: 200px;
@@ -43,13 +43,13 @@
     /* max-height: 10vh; */
 }
 @media only screen and (min-width: 769px) and (max-width: 1100px) {
-    .vinay-Component1-content{
+    .calcom-Component1-content{
         font-size: 70px;
     }
 
 }
 @media screen and (max-width:769px) {
-    .vinay-Component1-content{
+    .calcom-Component1-content{
         font-size: 60px;
     }
 }

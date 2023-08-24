@@ -1,16 +1,18 @@
 import React from 'react'
 import '../Component6/Component6.css'
+import nagaland from '../assets/nagaland.jpg'
 const Component6 = () => {
   return (
-    <div className='vinay-Component6-div'>
-        <div className='vinay-Component6-heading-img'>
-            <p className='vinay-Component6-heading-content'>vinay cements</p>
+    <div className='calcom-Component6-div'>
+        <div className='calcom-Component6-heading'>
+            <img src={nagaland} className='calcom-Component6-heading-img'/>
+            <p className='calcom-Component6-heading-content'>calcom Cements </p>
         </div>
-        <div className='vinay-Component6-time'>
-          <p className='vinay-since'>
+        <div className='calcom-Component6-time'>
+          <p className='calcom-since'>
               Since
           </p>
-          <p className='vinay-year'>
+          <p className='calcom-year'>
               2002
           </p>
         </div>

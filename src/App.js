@@ -4,6 +4,7 @@ import { Route, Routes} from 'react-router-dom';
 import Antiques from "./pages/antiques/Antiques";
 import Thaella from "./pages/thaella/Thaella";
 import Vinay from "./pages/vinay/Vinay";
+import Calcom from "./pages/calcom/Calcom";
 // import Retail from "./pages/retail/Retail";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/thaella' element={<Thaella/>} />
         {/* <Route path='/thaella' element={<Retail/>} /> */}
         <Route path='/vinay' element={<Vinay/>} />
+        <Route path='/calcom' element={<Calcom/>} />
       </Routes>
     </>
   );

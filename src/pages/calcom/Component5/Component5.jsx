@@ -1,23 +1,23 @@
 import React from 'react'
 import './Component5.css'
-import vinaybottom from '../assets/vinaybottom.jpeg'
+import calcombottom from '../assets/calcombottom.jpeg'
 
 const Component5 = () => {  
     return (
-        <div className='vinay-Component5-div'>
-            <p className='vinay-Component5-heading'>Highlight Moment</p>
-            <div className='vinay-Component5-main'>
-                <img className='vinay-Component5-img' src={vinaybottom} />
-                <div className='vinay-Component5-div2'>
-                    <div className='vinay-Component5-div2-1'>
-                        <div className='vinay-Component5-div2-1-1'>
-                                Empowering 1000’s of Children                        </div>
-                        <p className='vinay-Component5-div2-1-2'>
-                            ​The highlight of Vinay Cements’ journey was providing pro-bono education to thousands of under-priviledged children who would not be literate otherwise.                         </p>
+        <div className='calcom-Component5-div'>
+            <p className='calcom-Component5-heading'>Highlight Moment</p>
+            <div className='calcom-Component5-main'>
+                <img className='calcom-Component5-img' src={calcombottom} />
+                <div className='calcom-Component5-div2'>
+                    <div className='calcom-Component5-div2-1'>
+                        <p className='calcom-Component5-text'>Life-Changing Contributions</p>
+        
+                        <p className='calcom-Component5-div2-1-2'>
+                        Making life-changing economic and social contributions to over 25,000 people and their families. Empowering and enabling them to break free from the shackles of multi-generational poverty.                         </p>
                     </div>
-                    <div className='vinay-Component5-div2-2'>
-                        <div className='vinay-Component5-div2-2-1'>2004</div>
-                        <div className='vinay-Component5-div2-2-2'>Umrangshu, Assam</div>
+                    <div className='calcom-Component5-div2-2'>
+                        <div className='calcom-Component5-div2-2-1'>2006</div>
+                        <div className='calcom-Component5-div2-2-2'>Assam, India</div>
                     </div>
 
                 </div>
