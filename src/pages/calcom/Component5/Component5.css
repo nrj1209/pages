@@ -42,7 +42,7 @@
 .calcom-Component5-div2{
     /* min-height: 30vh; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     gap : 25px;
     align-items: center;
@@ -64,7 +64,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 
@@ -77,8 +77,7 @@
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 1px;
-    align-items: left;
-    text-align: left;
+    text-align: center;
     padding-left: 0px;
     /* white-space: nowrap; */
 }
@@ -94,6 +93,7 @@
     line-height: 25px; 
     /* padding-left: 10px; */
     padding-right: 10px;
+    text-align: center;
 }
 
 .calcom-Component5-div2-2{
@@ -131,9 +131,9 @@
     /* .calcom-Component5-div{
         min-height: 100vh;
     } */
-    .calcom-Component5-div2{
+    /* .calcom-Component5-div2{
         max-width: 350px;
-    }
+    } */
 
 }
 @media screen and (min-width:768px) {
