@@ -10,11 +10,10 @@ const Component5 = () => {
                 <img className='timber-Component5-img' src={timberbottom} />
                 <div className='timber-Component5-div2'>
                     <div className='timber-Component5-div2-1'>
-                        <div className='timber-Component5-div2-1-1'>
-                            Moment Name
-                        </div>
+                        <p className='timber-Component5-text'>Moment Name</p>
+        
                         <p className='timber-Component5-div2-1-2'>
-                            Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta.
+                                    Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta.                    
                         </p>
                     </div>
                     <div className='timber-Component5-div2-2'>
