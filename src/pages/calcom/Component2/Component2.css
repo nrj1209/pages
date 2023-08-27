@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 .calcom-Component2-div{
     width: 100%;
@@ -63,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: 15px;
 }
 .calcom-Component2-line{
     width: 100%;

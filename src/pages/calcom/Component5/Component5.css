@@ -22,14 +22,14 @@
 .calcom-Component5-heading{
 
     /* width: 100%; */
-    color: var(--white, white);
-    background-color: #262626;
+    color: #262626;
+    background-color: #FDDB60 ;
     font-family: 'Skywalks';
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 8px;
+    padding: 8px 15px 8px 15px;
     margin-top: 15px;
     margin-bottom: 35px;
     text-align: center;
@@ -146,7 +146,7 @@
     }
     .calcom-Component5-heading{
         margin-top: 15px;
-        padding: 10px;
+        padding: 10px 15px 10px 15px;
     }
     .calcom-Component5-text{
         padding-left: 6px;
@@ -185,6 +185,7 @@
         font-weight: 400;
         line-height: 24px; /* 150% */
         max-width: 387px;
+        text-align: left;
     }
     .calcom-Component5-img{
         max-width: 1000px;

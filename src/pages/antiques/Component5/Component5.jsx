@@ -11,7 +11,7 @@ const Component5 = () => {
                 <div className='antiques-Component5-div2'>
                     <div className='antiques-Component5-div2-1'>
                         <div className='antiques-Component5-div2-1-1'>
-                            <p className='antiques-Component5-text'>Spreading Happiness</p>
+                            
                             <p className='antiques-Component5-text'>Delighting Clients</p>
                         </div>
                         <p className='antiques-Component5-div2-1-2'>
