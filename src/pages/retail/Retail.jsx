@@ -10,8 +10,8 @@ const Retail = () => {
     <div>
         <Component1/>
         <Component6/>
+        <Component3/> 
         <Component2/>
-        <Component3/>
         <Component4/>
         <Component5/>
     </div>

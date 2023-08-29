@@ -5,25 +5,26 @@
 }
 
 .thaella-Component4-div{
-    min-height: 80vh;
+    /* min-height: 93vh; */
     width: 100%;
     background-color: #FDDB60;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 35px;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* align-items: center; */
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .thaella-Component4-heading{
     color: var(--black, #262626);
     font-family: 'Skywalks';
-    font-size: 28px;
+    font-size: 52px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
+    text-align: center;
 }
 .thaella-Component4-main{
     display: flex;
@@ -38,17 +39,40 @@
     width: 100%;
     max-width: 255.5px;
 }
-
 .thaella-Component4-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    gap:10px;
+    min-height: 50vh;
+
+}
+
+.thaella-Component4-content-1{
     width: 100%;
     max-width: 297px;
     color: var(--black, #262626);
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    align-items: center;
+    font-weight: 1000;
+    line-height: 30px;
+    /* align-items: center; */
+    text-align: left;
+}
+.thaella-Component4-content-2{
+    width: 100%;
+    max-width: 297px;
+    color: var(--black, #262626);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 30px;
+    text-align: left;
+    /* align-items: center; */
 }
 
 @media screen and (min-width: 768px) {
@@ -60,15 +84,23 @@
             align-items: center;
         }
         .thaella-Component4-div{
-            min-height: 100vh;
-
+            min-height: 93vh;
             /* padding-top: 10px; */
         }
-        .thaella-Component4-heading{
-            font-size: 72px;
-        }
         .thaella-Component4-content{
-            font-size: 20px;
+            gap: 20px;
+            max-width: 490px;
+        }
+        .thaella-Component4-heading{
+            font-size: 52px;
+        }
+        .thaella-Component4-content-1{
+            font-size: 18px;
+            max-width: 560px;
+            text-align: left;
+        }
+        .thaella-Component4-content-2{
+            font-size: 18px;
             max-width: 560px;
             text-align: left;
         }

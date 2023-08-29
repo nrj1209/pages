@@ -1,21 +1,30 @@
 import React from 'react'
-import './Component3.css'
-import left from '../assets/left.png'
-import right from '../assets/right.png'
+import  './Component3.css'
+import leftlogo from '../assets/left.png'
+import rightlogo from '../assets/right.png'
 const Component3 = () => {
-  return (
-    <div className='Component3-div'>
-        <div className='Component3-left'>
-            <img className='Component3-left-img' src={left}/>
+  return (   
+    <div className=' thaella-Component3-div'>
+    <div className='thaella-Component3-main'>
+        <p className=' thaella-Component3-heading'>How We Started?</p>
+        <div className=' thaella-Component3-div2'>
+          <p className='thaella-Component3-div2-text'>
+          After growing Vinay Cements for over 15 years, we realized there was another dire shortage of cement in North-East India in the early 2000s. Infrastructural development was at an all-time high and cement prices were soaring because of the deficit in supply. 
+          </p>
+          <p className='thaella-Component3-div2-text'>
+          Paradoxically the region still had a wealth of untapped raw materials. ​It was a rare opportunity to turn economic struggles into triumph and it sparked the inception of thaella Cements​.          
+          </p>
+          <p className='thaella-Component3-div2-text'>
+          The company is a manifestation of the founders ​visionary ​leadership, ​strategic ingenuity, and audacious risk-taking​. This was ​fortified by the​ir ​deep understanding of supply chain dynamics, a ​rich ​two-decade legacy in the cement industry, and over forty years of industrial acumen.         
+          </p>
+          <p className='thaella-Component3-div2-text'>
+          ​ ​​As a beacon of innovation ​thaella ​reshaped industry benchmarks with an EBITDA that eclipses the industry average by 2.5 times. ​​​The company is a testament to the​ ​​founders' ​unyielding perseverance​ and hard work. 
+          </p>
         </div>
-        <div className='Component3-middle'>
-            <p className='Component3-heading'>How We Started?</p>
-            <p className='Component3-heading-content'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra elementum dictum. Etiam laoreet neque dapibus, consectetur massa id, euismod urna. Morbi eu ex at risus volutpat laoreet eu vel sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer ac ultricies leo, at sodales arcu. Sed nec orci magna. Cras quis massa id augue imperdiet ornare. Vivamus pellentesque id dolor non gravida. Nullam nec justo a purus fermentum malesuada sit amet id urna. Mauris mollis lectus mattis, eleifend felis non, dignissim quam.
-            </p>
         </div>
-        <div className='Component3-right'>
-            <img className='Component3-right-img' src={right}/>
+        <div className=' thaella-Component3-img-container'>
+            <img className=' thaella-Component3-left' src={leftlogo}/>
+            <img className=' thaella-Component3-right' src={rightlogo}/>
         </div>
     </div>
   )

@@ -5,6 +5,7 @@ import rightlogo from '../assets/right.png'
 const Component3 = () => {
   return (   
     <div className=' calcom-Component3-div'>
+    <div className='calcom-Component3-main'>
         <p className=' calcom-Component3-heading'>How We Started?</p>
         <div className=' calcom-Component3-div2'>
           <p className='calcom-Component3-div2-text'>
@@ -19,6 +20,7 @@ const Component3 = () => {
           <p className='calcom-Component3-div2-text'>
           ​ ​​As a beacon of innovation ​Calcom ​reshaped industry benchmarks with an EBITDA that eclipses the industry average by 2.5 times. ​​​The company is a testament to the​ ​​founders' ​unyielding perseverance​ and hard work. 
           </p>
+        </div>
         </div>
         <div className=' calcom-Component3-img-container'>
             <img className=' calcom-Component3-left' src={leftlogo}/>

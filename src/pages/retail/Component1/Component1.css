@@ -3,7 +3,7 @@
 
 .retail-Component1-div{
     background-image: url('../assets/retailbg.jpeg');
-    height: 50vh;
+    min-height: 45vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;

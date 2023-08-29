@@ -9,6 +9,14 @@
     padding-bottom: 45px;
 }
 
+.calcom-Component3-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
 .calcom-Component3-heading {
     color: var(--white, #262626);
     font-family: 'Skywalks';

@@ -4,7 +4,7 @@ const Component6 = () => {
   return (
     <div className='thaella-Component6-div'>
         <div className='thaella-Component6-heading-img'>
-            <p className='thaella-Component6-heading-content'>BAWRI thaella</p>
+            <p className='thaella-Component6-heading-content'>THAELLA</p>
         </div>
         <div className='thaella-Component6-time'>
           <p className='thaella-since'>
