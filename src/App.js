@@ -6,6 +6,7 @@ import Thaella from "./pages/thaella/Thaella";
 import Vinay from "./pages/vinay/Vinay";
 import Calcom from "./pages/calcom/Calcom";
 import Retail from "./pages/retail/Retail";
+import Diduce from "./pages/diduce/Diduce"
 function App() {
   return (
      <>
@@ -18,6 +19,7 @@ function App() {
         <Route path='/retail' element={<Retail/>} />
         <Route path='/vinay' element={<Vinay/>} />
         <Route path='/calcom' element={<Calcom/>} />
+        <Route path='/diduce' element={<Diduce/>} />
       </Routes>
     </>
   );
