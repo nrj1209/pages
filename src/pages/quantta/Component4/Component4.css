@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.retail-Component4-div{
+.quantta-Component4-div{
     /* min-height: 93vh; */
     width: 100%;
     background-color: #FDDB60;
@@ -17,7 +17,7 @@
     padding-bottom: 45px;
 }
 
-.retail-Component4-heading{
+.quantta-Component4-heading{
     color: var(--black, #262626);
     font-family: 'Skywalks';
     font-size: 52px;
@@ -26,7 +26,7 @@
     line-height: normal;
     text-align: center;
 }
-.retail-Component4-main{
+.quantta-Component4-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,11 +35,11 @@
     gap: 10px;
 }
 
-.retail-Component4-img{
+.quantta-Component4-img{
     width: 100%;
     max-width: 255.5px;
 }
-.retail-Component4-content{
+.quantta-Component4-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@
 
 }
 
-.retail-Component4-content-1{
+.quantta-Component4-content-1{
     width: 100%;
     max-width: 297px;
     color: var(--black, #262626);
@@ -62,7 +62,7 @@
     /* align-items: center; */
     text-align: left;
 }
-.retail-Component4-content-2{
+.quantta-Component4-content-2{
     width: 100%;
     max-width: 297px;
     color: var(--black, #262626);
@@ -76,30 +76,30 @@
 }
 
 @media screen and (min-width: 768px) {
-        .retail-Component4-main{
+        .quantta-Component4-main{
             display: flex;
             flex-direction: row;
             justify-content: center;    
             gap: 200px;
             align-items: center;
         }
-        .retail-Component4-div{
+        .quantta-Component4-div{
             min-height: 93vh;
             /* padding-top: 10px; */
         }
-        .retail-Component4-content{
+        .quantta-Component4-content{
             gap: 20px;
             max-width: 490px;
         }
-        .retail-Component4-heading{
+        .quantta-Component4-heading{
             font-size: 52px;
         }
-        .retail-Component4-content-1{
+        .quantta-Component4-content-1{
             font-size: 18px;
             max-width: 560px;
             text-align: left;
         }
-        .retail-Component4-content-2{
+        .quantta-Component4-content-2{
             font-size: 18px;
             max-width: 560px;
             text-align: left;

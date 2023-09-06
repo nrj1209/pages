@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.retail-Component1-div{
-    background-image: url('../assets/retailbg.jpeg');
+.quantta-Component1-div{
+    background-image: url('../assets/quanttabg.jpeg');
     min-height: 45vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     /* position: relative; */
     display: flex;
     flex-direction: column;
@@ -16,12 +16,12 @@
 }
 
 @media screen and (min-width: 768px) {
-    .retail-Component1-div{
-        height: 100vh;
+    .quantta-Component1-div{
+        min-height: 100vh;
     }
 
-    .retail-Component1-content{
-        font-size: 120px;
+    .quantta-Component1-content{
+        font-size: 70px;
     }
 
     
@@ -29,7 +29,7 @@
 
 
 
-.retail-Component1-content{
+.quantta-Component1-content{
     color: white;
     font-family: 'Lato';
     font-size: 200px;
@@ -38,18 +38,19 @@
     line-height: normal;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color:white;
     -webkit-text-stroke: 1.8px;
     /* max-height: 10vh; */
+    text-align: center;
 }
 @media only screen and (min-width: 769px) and (max-width: 1100px) {
-    .retail-Component1-content{
+    .quantta-Component1-content{
         font-size: 70px;
     }
 
 }
 @media screen and (max-width:769px) {
-    .retail-Component1-content{
+    .quantta-Component1-content{
         font-size: 60px;
     }
 }

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.retail-Component6-div{
+.quantta-Component6-div{
     width: 100%;
     min-height: 30vh;
     background-color: white;  
@@ -16,18 +16,18 @@
     padding-top: 55px;
     padding-bottom: 55px;
 }
-.retail-Component6-time{
+.quantta-Component6-time{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
     align-items: center;
 }
-.retail-Component6-heading-img{
+.quantta-Component6-heading-img{
     width: 100%;
     max-width: 358px;
 }
-.retail-Component6-heading{
+.quantta-Component6-heading{
     
     width: 100%;
     display: flex;
@@ -36,7 +36,7 @@
     align-items:center;
 }
 
-.retail-Component6-heading-content{
+.quantta-Component6-heading-content{
     color: white;
     text-shadow: 0px 39px 25px rgba(0, 0, 0, 0.25);
     font-family: 'Cormorant Garamond';
@@ -53,7 +53,7 @@
     z-index: 10;
 }
 
-.retail-since{
+.quantta-since{
     color: var(--black, #262626);
     font-family: 'Skywalks';
     font-size: 36px;
@@ -63,7 +63,7 @@
     letter-spacing: 0.5px;
 }
 
-.retail-year{
+.quantta-year{
  text-align: center;
 font-family: 'DidoneRoomNumbers';
 font-size: 100px;
@@ -81,22 +81,22 @@ background-position: center;
 }
 
 @media screen and (min-width : 768px) {
-    .retail-Component6-div{
+    .quantta-Component6-div{
         min-height: 67vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-    .retail-Component6-heading-img{
+    .quantta-Component6-heading-img{
         width: 100%;
         max-width: 600px;
 
     }
-    .retail-since{
+    .quantta-since{
         font-size: 60px;
     }
-    .retail-Component6-heading-content{
+    .quantta-Component6-heading-content{
        text-align: center;
        font-size: 40px;
     }

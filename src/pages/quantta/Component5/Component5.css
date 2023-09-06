@@ -1,11 +1,11 @@
-.retail-Component5-main{
+.quantta-Component5-main{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.retail-Component5-div{
+.quantta-Component5-div{
     width: 100%;
     /* min-height: 100vh; */
     background-color: white;
@@ -19,7 +19,7 @@
     padding-top: 45px;
    
 }
-.retail-Component5-heading{
+.quantta-Component5-heading{
 
     /* width: 100%; */
     color: #262626;
@@ -36,10 +36,10 @@
 
 }
 
-.retail-Component5-img{
+.quantta-Component5-img{
     width: 100%;
 }
-.retail-Component5-div2{
+.quantta-Component5-div2{
     /* min-height: 30vh; */
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@
     padding-top: 14px;
     padding-bottom: 10px;
 }
-.retail-Component5-div2-1{
+.quantta-Component5-div2-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@
 }
 
 
-.retail-Component5-text{
+.quantta-Component5-text{
     color: var(--white, #FFF);
     text-align: center;
     font-family: 'Skywalks';
@@ -84,7 +84,7 @@
 }
 
 
-.retail-Component5-div2-1-2{
+.quantta-Component5-div2-1-2{
     color: var(--white, #FFF);
     text-align: left;
     font-family: 'Lato';
@@ -97,7 +97,7 @@
     text-align: center;
 }
 
-.retail-Component5-div2-2{
+.quantta-Component5-div2-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,7 +108,7 @@
 
 }
 
-.retail-Component5-div2-2-1{
+.quantta-Component5-div2-2-1{
     color: var(--white, #FFF);
     text-align: center;
     font-family: 'Lato';
@@ -118,7 +118,7 @@
     line-height: 10.5px; /* 58.333% */
 }
 
-.retail-Component5-div2-2-2{
+.quantta-Component5-div2-2-2{
     color: var(--white, #FFF);
     text-align: center;
     font-family: Lato;
@@ -129,30 +129,30 @@
     white-space: nowrap;
 }
 @media screen and (min-width: 424px) {
-    /* .retail-Component5-div{
+    /* .quantta-Component5-div{
         min-height: 100vh;
     } */
-    /* .retail-Component5-div2{
+    /* .quantta-Component5-div2{
         max-width: 350px;
     } */
 
 }
 @media screen and (min-width:768px) {
 
-     .retail-Component5-div2-1-2{
+     .quantta-Component5-div2-1-2{
         padding-left: 10px;
     }
-    .retail-Component5-text{
+    .quantta-Component5-text{
         font-size: 30px;
     }
-    .retail-Component5-heading{
+    .quantta-Component5-heading{
         margin-top: 15px;
         padding: 10px 15px 10px 15px;
     }
-    .retail-Component5-text{
+    .quantta-Component5-text{
         padding-left: 6px;
     }
-    .retail-Component5-div2{
+    .quantta-Component5-div2{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -163,11 +163,11 @@
         top: -107px;
         padding-bottom: 20px;
     }
-    .retail-Component5-div2-2{
+    .quantta-Component5-div2-2{
         gap: 0px;
     }
 
-    .retail-Component5-div2-2-1{
+    .quantta-Component5-div2-2-1{
         color: var(--white, #FFF);
         text-align: center;
         font-family: Lato;
@@ -178,7 +178,7 @@
         margin-bottom: 30px;
     }
 
-    .retail-Component5-div2-1-2{
+    .quantta-Component5-div2-1-2{
         color: var(--white, #FFF);
         font-family: 'Inter';
         font-size: 16px;
@@ -188,29 +188,29 @@
         max-width: 387px;
         text-align: left;
     }
-    .retail-Component5-img{
+    .quantta-Component5-img{
         max-width: 1000px;
     }
 
-    .retail-Component5-div2-1{
+    .quantta-Component5-div2-1{
         justify-content: center;
         gap: 5px;
         align-items: flex-start;
         text-align: left;
     }
    
-    .retail-Component5-div2-2-2{
+    .quantta-Component5-div2-2-2{
         font-size: 32px;
 
     }
-    .retail-Component5-div2-2-1{
+    .quantta-Component5-div2-2-1{
         font-size: 32px;
     }
 
 }
 
 @media screen and (min-width:768px) and (max-width: 1000px)  {
-    .retail-Component5-div2{
+    .quantta-Component5-div2{
         top: -70px
     }
    

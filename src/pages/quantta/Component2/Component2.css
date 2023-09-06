@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.retail-Component2-heading{
+.quantta-Component2-heading{
     color: #262626;
     font-family: 'Skywalks';
     font-size: 35px;
@@ -14,14 +14,14 @@
     margin-bottom: 30px; */
     text-transform: capitalize;
 }
-.retail-Component2-content{
+.quantta-Component2-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.retail-Component2-div{
+.quantta-Component2-div{
     width: 100%;
     /* height: 50vh; */
     background-color: #FEE8D0;
@@ -36,7 +36,7 @@
     padding-bottom: 55px;
 }
 
-.retail-Component2-text{
+.quantta-Component2-text{
     color: #262626;
     text-align: left;
     font-family: 'Angello';
@@ -48,7 +48,7 @@
     max-width: 300px;
 }
 
-.retail-Component2-name{
+.quantta-Component2-name{
     color: var(--black, #262626);
     text-align: center;
     font-family: 'Angello';
@@ -59,18 +59,18 @@
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.retail-Component-text-content{
+.quantta-Component-text-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.retail-Component2-line{
+.quantta-Component2-line{
     width: 100%;
     max-width: 180px;
 }
-.retail-Component2-bottom{
+.quantta-Component2-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,21 +80,21 @@
 }
 
 @media screen and (min-width: 768px){
-    .retail-Component2-line{
+    .quantta-Component2-line{
         max-width: 270px;
     }   
 
-    .retail-Component2-text{
+    .quantta-Component2-text{
         max-width: 600px;
         font-size: 54px;
         text-align: center;
     }
 
-    .retail-Component2-name{
+    .quantta-Component2-name{
         font-size: 40px;
         
     }
-    .retail-Component2-heading{
+    .quantta-Component2-heading{
         font-size: 52px;
     }
 
