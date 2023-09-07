@@ -13,7 +13,7 @@ const Component2 = () => {
         
         </div>
         <div className='quantta-Component2-bottom'>
-        <p className='quantta-Component2-name'>Rajesh Bhugra</p>
+        <p className='quantta-Component2-name'>PERSON NAME</p>
           <img src={line} className='quantta-Component2-line'/>
         </div>
     </div>

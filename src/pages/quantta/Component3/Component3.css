@@ -1,7 +1,7 @@
-.diduce-Component3-div {
+.quantta-Component3-div {
     /* min-height: 130vh; */
     width: 100%;
-    background-image: url('../assets/diducemain.png');
+    background-image: url('../assets/quanttamain.png');
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,7 +13,7 @@
 }
 
 
-.diduce-Component3-heading {
+.quantta-Component3-heading {
     color: var(--white, #262626);
     font-family: 'Skywalks';
     font-size: 35px;
@@ -25,7 +25,7 @@
     white-space: nowrap;
 }
 
-.diduce-Component3-div2 {
+.quantta-Component3-div2 {
     max-width: 856px;
     border-radius: 20px;
     background-color: #262626;
@@ -42,7 +42,7 @@
 
 
 
-.diduce-Component3-div2-text {
+.quantta-Component3-div2-text {
     color: white;
     font-family: 'Lato';
     font-size: 17px;
@@ -59,19 +59,19 @@
 
 
 @media screen and (min-width : 768px) {
-    .diduce-Component3-div {
-        /* min-height: 100vh; */
+    .quantta-Component3-div {
+        min-height: 100vh;
         /* height: 100%; */
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
     }
 
-    .diduce-Component3-heading {
+    .quantta-Component3-heading {
         font-size: 52px;
     }
     
-    .diduce-Component3-div2 {
+    .quantta-Component3-div2 {
         max-width: 700px;
         width: 100%;
     }

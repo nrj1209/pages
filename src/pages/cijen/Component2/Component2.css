@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.quantta-Component2-heading{
+.cijen-Component2-heading{
     color: #262626;
     font-family: 'Skywalks';
     font-size: 35px;
@@ -14,14 +14,14 @@
     margin-bottom: 30px; */
     text-transform: capitalize;
 }
-.quantta-Component2-content{
+.cijen-Component2-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.quantta-Component2-div{
+.cijen-Component2-div{
     width: 100%;
     /* height: 50vh; */
     background-color: #FEE8D0;
@@ -36,7 +36,7 @@
     padding-bottom: 55px;
 }
 
-.quantta-Component2-text{
+.cijen-Component2-text{
     color: #262626;
     text-align: left;
     font-family: 'Angello';
@@ -48,7 +48,7 @@
     max-width: 300px;
 }
 
-.quantta-Component2-name{
+.cijen-Component2-name{
     color: var(--black, #262626);
     text-align: center;
     font-family: 'Skywalks';
@@ -59,18 +59,18 @@
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.quantta-Component-text-content{
+.cijen-Component-text-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.quantta-Component2-line{
+.cijen-Component2-line{
     width: 100%;
     max-width: 180px;
 }
-.quantta-Component2-bottom{
+.cijen-Component2-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,21 +80,21 @@
 }
 
 @media screen and (min-width: 768px){
-    .quantta-Component2-line{
+    .cijen-Component2-line{
         max-width: 270px;
     }   
 
-    .quantta-Component2-text{
+    .cijen-Component2-text{
         max-width: 600px;
         font-size: 54px;
         text-align: center;
     }
 
-    .quantta-Component2-name{
+    .cijen-Component2-name{
         font-size: 40px;
         
     }
-    .quantta-Component2-heading{
+    .cijen-Component2-heading{
         font-size: 52px;
     }
 
