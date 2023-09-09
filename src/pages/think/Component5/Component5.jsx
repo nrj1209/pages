@@ -13,8 +13,8 @@ const Component5 = () => {
                     <div className='think-Component5-div2-1'>
                         <p className='think-Component5-text'>Moment Name</p>
                     <div className='think-Component5-div2-2'>
-                        <div className='think-Component5-div2-2-1'>2012</div>
-                        <div className='think-Component5-div2-2-2'>Kolkata, India</div>
+                        <div className='think-Component5-div2-2-1'>2012 - Kolkata, India</div>
+                        <div className='think-Component5-div2-2-2'></div>
                     </div>
                         <p className='think-Component5-div2-1-2'>
                         Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta.                         </p>
