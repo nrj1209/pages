@@ -31,24 +31,32 @@
 }
 
 .cijen-Component3-div2 {
+    position: relative;
+    width: 100%;
     max-width: 856px;
-    border-radius: 20px;
-    /* background-image: url(../assets/divimg.png); */
-    padding: 20px;
-    margin-left: 23px;
-    margin-right: 23px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    align-items: center;
+    background-image: url(../assets/divimg.png);
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-
+.cijen-Component3-text{
+    position: absolute;
+    top: 110px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    max-width: 70%;
+   
+}
 
 .cijen-Component3-div2-text {
-    color: white;
+
+    color: black;
     font-family: 'Lato';
     font-size: 17px;
     font-style: normal;

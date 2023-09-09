@@ -14,7 +14,8 @@ const Component3 = () => {
     <p className=' cijen-Component3-heading'>How We Started?</p>
     {/* <img className='cijen-Component3-img' src={topright}/> */}
     </div>
-        <div className=' cijen-Component3-div2' >
+        <div className='cijen-Component3-div2'>
+        <div className='cijen-Component3-text'>
           <p className='cijen-Component3-div2-text'>
           After growing Vinay Cements for over 15 years, we realized there was another dire shortage of cement in North-East India in the early 2000s. Infrastructural development was at an all-time high and cement prices were soaring because of the deficit in supply. 
           </p>
@@ -27,6 +28,7 @@ const Component3 = () => {
           <p className='cijen-Component3-div2-text'>
           ​ ​​As a beacon of innovation ​cijen ​reshaped industry benchmarks with an EBITDA that eclipses the industry average by 2.5 times. ​​​The company is a testament to the​ ​​founders' ​unyielding perseverance​ and hard work. 
           </p>
+          </div>
         </div>
         {/* </div> */}
         {/* <div className=' cijen-Component3-img-container'>

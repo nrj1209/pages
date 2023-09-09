@@ -30,7 +30,7 @@
 
 
 .resin-Component1-content{
-    color: white;
+    color: #272222;
     font-family: 'Lato';
     font-size: 200px;
     font-style: normal;
@@ -39,7 +39,7 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     -webkit-text-fill-color:white;
-    -webkit-text-stroke: 1.8px;
+    -webkit-text-stroke: 2.8px;
     /* max-height: 10vh; */
     text-align: center;
 }
