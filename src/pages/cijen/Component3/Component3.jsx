@@ -1,40 +1,54 @@
 import React from 'react'
 import  './Component3.css'
-import divimg from '../assets/divimg.png'
 // import bottomleft from '../assets/bottomleft.png'
 // import bottomright from '../assets/bottomright.png'
-// import topleft from '../assets/topleft.png'
-// import topright from '../assets/topright.png'
+import topleft from '../assets/topleft.png'
+import topright from '../assets/topright.png'
 const Component3 = () => {
   return (   
     <div className=' cijen-Component3-div'>
     {/* <div className='cijen-Component3-main'> */}
     <div className='cijen-Component3-top'>
-    {/* <img className='cijen-Component3-img' src={topleft}/> */}
+    <img className='cijen-Component3-img' src={topleft}/>
     <p className=' cijen-Component3-heading'>How We Started?</p>
-    {/* <img className='cijen-Component3-img' src={topright}/> */}
+    <img className='cijen-Component3-img' src={topright}/>
     </div>
         <div className='cijen-Component3-div2'>
-        <div className='cijen-Component3-text'>
-          <p className='cijen-Component3-div2-text'>
-          After growing Vinay Cements for over 15 years, we realized there was another dire shortage of cement in North-East India in the early 2000s. Infrastructural development was at an all-time high and cement prices were soaring because of the deficit in supply. 
-          </p>
-          <p className='cijen-Component3-div2-text'>
-          Paradoxically the region still had a wealth of untapped raw materials. ​It was a rare opportunity to turn economic struggles into triumph and it sparked the inception of cijen Cements​.          
-          </p>
-          <p className='cijen-Component3-div2-text'>
-          The company is a manifestation of the founders ​visionary ​leadership, ​strategic ingenuity, and audacious risk-taking​. This was ​fortified by the​ir ​deep understanding of supply chain dynamics, a ​rich ​two-decade legacy in the cement industry, and over forty years of industrial acumen.         
-          </p>
-          <p className='cijen-Component3-div2-text'>
-          ​ ​​As a beacon of innovation ​cijen ​reshaped industry benchmarks with an EBITDA that eclipses the industry average by 2.5 times. ​​​The company is a testament to the​ ​​founders' ​unyielding perseverance​ and hard work. 
-          </p>
+        <div className="mbp-mockup-wrapper">
+<div className="mbp-container">
+	<div className="mbp-display with-glare">
+		<div className="display-edge">
+			<div className="bezel">
+				<div className="display-camera" ></div>
+				<div className="display-frame">
+          <div>
+            <p className="content">
+              During World War II, the army needed a lot of timber but it was in short supply. My father kept our door and kitchen open to all army personnel. He said this was the least we could do; Generals, Captains, and Jawaan’s alike were risking their lives. A group of fifteen came for Diwali-dinner in 1945. After a hearty dinner of over 150 puri’s and accompaniments, they got talking. They shared both heart-warming as well as gut-wrenching stories. They asked if we could organise a large supply of woolens for them. “Consider it done” my father said in his deep voice. They joked “Can you organise large supplies of timber also.” After an hour of discussions, the entrepreneur in my father realised this was a good opportunity; it was a win-win, and he had willing customers. Six months later, in the midst of the war, Bawri Timber Industries was borne.
+            </p>
           </div>
+				</div>
+				<div className="below-display">
+					<div className="macbookpro"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div className="mbp-keyboard">
+		<div className="front">
+			<div className="opener-left"></div>
+			<div className="opener-right"></div>
+		</div>
+		<div className="bottom-left"></div>
+		<div className="bottom-right"></div>
+		<div className="mbp-shadow">			
+			<div className="shadow-left"></div>
+			<div className="shadow-right"></div>
+		</div>
+	</div>
+</div>
+</div>
         </div>
-        {/* </div> */}
-        {/* <div className=' cijen-Component3-img-container'>
-        <img className='cijen-Component3-img' src={bottomleft}/>
-        <img className='cijen-Component3-img' src={bottomright}/>
-        </div> */}
+       
     </div>
   )
 }
