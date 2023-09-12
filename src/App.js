@@ -11,6 +11,7 @@ import Quantta from "./pages/quantta/Quantta";
 import Resin from "./pages/resin/Resin";
 import Cijen from "./pages/cijen/Cijen"
 import Think from "./pages/think/Think"
+import Idea from "./pages/idea/Idea";
 function App() {
   return (
      <>
@@ -28,7 +29,7 @@ function App() {
         <Route path='/resin' element={<Resin/>} />
         <Route path='/cijen' element={<Cijen/>} />
         <Route path='/think' element={<Think/>} />
-
+        <Route path='/idea' element={<Idea/>} />
       </Routes>
     </>
   );
