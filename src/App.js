@@ -12,6 +12,7 @@ import Resin from "./pages/resin/Resin";
 import Cijen from "./pages/cijen/Cijen"
 import Think from "./pages/think/Think"
 import Idea from "./pages/idea/Idea";
+import Growth from "./pages/growth/Growth";
 function App() {
   return (
      <>
@@ -30,6 +31,8 @@ function App() {
         <Route path='/cijen' element={<Cijen/>} />
         <Route path='/think' element={<Think/>} />
         <Route path='/idea' element={<Idea/>} />
+        <Route path='/growth' element={<Growth/>} />
+
       </Routes>
     </>
   );

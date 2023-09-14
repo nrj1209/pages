@@ -1,0 +1,125 @@
+.growth-Component3-div {
+    /* min-height: 130vh; */
+    width: 100%;
+    background-image: url('../assets/growthmain.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 45px;
+    background-size:cover;
+    background-repeat: no-repeat;
+ 
+    
+}
+
+.growth-Component3-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.growth-Component3-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.growth-Component3-heading {
+    color: var(--white, #262626);
+    font-family: 'Skywalks';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.growth-Component3-div2 {
+    max-width: 856px;
+    border-radius: 20px;
+    background-color: #FEE8D0;
+    padding: 20px;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+.growth-Component3-div2-text {
+    color:#262626;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+
+
+
+
+.growth-Component3-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.growth-Component3-left {
+    width: 140px;
+}
+
+.growth-Component3-right {
+    width: 140px;
+}
+@media screen and (max-width:440px) {
+    .growth-Component3-left {
+        width: 83px;
+    }
+    
+    .growth-Component3-right {
+        width: 83px;
+    }
+}
+
+
+
+
+@media screen and (min-width : 768px) {
+    .growth-Component3-div {
+        min-height: 100vh;
+    }
+
+    .growth-Component3-heading {
+        font-size: 72px;
+    }
+ .growth-Component3-left {
+        width: 250px
+    } 
+
+    .growth-Component3-right {
+        width: 250px
+    } */
+    
+    
+    .growth-Component3-div2 {
+        max-width: 700px;
+        width: 100%;
+    }
+    
+}
+
