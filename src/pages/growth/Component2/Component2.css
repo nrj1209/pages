@@ -10,8 +10,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* margin-top: 45px;
-    margin-bottom: 30px; */
     text-transform: capitalize;
 }
 .growth-Component2-content{
@@ -23,7 +21,6 @@
 }
 .growth-Component2-div{
     width: 100%;
-    /* height: 50vh; */
     background-color: #FEE8D0;
     display: flex;
     flex-direction: column;

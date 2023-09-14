@@ -5,7 +5,6 @@
 }
 
 .growth-Component4-div{
-    /* min-height: 93vh; */
     width: 100%;
     background-color: #3B44F6;
     display: flex;
@@ -13,7 +12,6 @@
     justify-content: center;
     gap: 35px;
     align-items: center;
-    /* padding-top: 45px; */
     padding-bottom: 45px;
 }
 
@@ -59,7 +57,6 @@
     font-style: normal;
     font-weight: 1000;
     line-height: 30px;
-    /* align-items: center; */
     text-align: left;
 }
 .growth-Component4-content-2{
@@ -72,7 +69,6 @@
     font-weight: 1000;
     line-height: 30px;
     text-align: left;
-    /* align-items: center; */
 }
 
 @media screen and (min-width: 768px) {
@@ -85,7 +81,6 @@
         }
         .growth-Component4-div{
             min-height: 93vh;
-            /* padding-top: 10px; */
         }
         .growth-Component4-content{
             gap: 20px;
@@ -107,6 +102,5 @@
 
         .growth-Component4-img{
             max-width: 800px;
-            /* max-height: 400px; */
         }
 }

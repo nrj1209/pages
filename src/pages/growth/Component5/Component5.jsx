@@ -12,7 +12,7 @@ const Component5 = () => {
         </div>
             <div className='growth-Component5-main'>
                 <img className='growth-Component5-img' src={growthbottom} />
-                {/* <div className='growth-Component5-div2'> */}
+       
                     <div className='growth-Component5-div2-1'>
                         <p className='growth-Component5-text'>Moment Name</p>
                     <div className='growth-Component5-div2-2'>
@@ -22,9 +22,6 @@ const Component5 = () => {
                         <p className='growth-Component5-div2-1-2'>
                         Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta. Lorem ipsum dolor sit amet consectetur. A mi urna ornare eu auctor tincidunt malesuada ut porta.                         </p>
                     </div>
-                   
-
-                {/* </div> */}
             </div>
         </div>
     )
