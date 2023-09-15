@@ -4,18 +4,18 @@
     background-image: url('../assets/ideamain.jpeg');
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap:45px;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 45px;
+    
 }
 
 .idea-Component3-heading {
     color: var(--white, #262626);
     font-family: 'Skywalks';
-    font-size: 28px;
+    font-size: 35px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     margin-top: 45px;
     margin-bottom: 30px;
@@ -55,21 +55,19 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 100px;
+    justify-content: space-between;
+    /* gap: 180px; */
     align-items: center;
 }
 
 .idea-Component3-left {
-    width: 65px;
+    width: 95px;
 }
 
 .idea-Component3-right {
-    width: 55px;
+    width: 95px;
 }
-.idea-Component3-middle {
-    width: 65px;
-}
+
 
 
 @media screen and (min-width : 768px) {
@@ -82,16 +80,14 @@
     }
 
     .idea-Component3-left {
-        width: 100px
+        width: 250px
     }
 
     .idea-Component3-right {
-        width: 100px
+        width: 250px
     }
     
-    .idea-Component3-middle{
-        width: 170px
-    }
+    
     .idea-Component3-div2 {
         max-width: 700px;
         width: 100%;
@@ -100,18 +96,15 @@
 
 @media screen and (min-width: 742px) and (max-width: 970px){
     .idea-Component3-left {
-    width: 55px;
+    width: 215px;
 }
 
 .idea-Component3-right {
-    width: 55px;
+    width: 215px;
 }
-.idea-Component3-middle {
-    width: 55px;
-}
+
 .idea-Component3-img-container{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 }
-

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.road-Component1-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.road-Component1-text1{
+    color: var(--Black, #262626);
+text-align: center;
+font-family: Skywalks;
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: 503px; /* 392.969% */
+letter-spacing: 1.333px;
+text-align: center;
+}
+
+.road-Component1-text2{
+    color: var(--Black, #262626);
+    font-family: Skywalks;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.road-Component1-text3{
+    color: var(--Black, #262626);
+    font-family: Skywalks;
+    font-size: 324px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 20px;
+    text-align: center;
+}

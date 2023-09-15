@@ -13,6 +13,7 @@ import Cijen from "./pages/cijen/Cijen"
 import Think from "./pages/think/Think"
 import Idea from "./pages/idea/Idea";
 import Growth from "./pages/growth/Growth";
+import Road from "./pages/road/Road";
 function App() {
   return (
      <>
@@ -32,7 +33,7 @@ function App() {
         <Route path='/think' element={<Think/>} />
         <Route path='/idea' element={<Idea/>} />
         <Route path='/growth' element={<Growth/>} />
-
+        <Route path='/road' element={<Road/>} />
       </Routes>
     </>
   );

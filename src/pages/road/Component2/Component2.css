@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.road-Component2-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.road-Component2-left{
+    width: 120px;
+    align-self: flex-end;
+}
+.road-Component2-right{
+    width: 120px;
+    align-self: flex-start;
+}
+
+.road-Component2-middle{
+    max-width: 650px;
+}
