@@ -16,6 +16,7 @@ import Growth from "./pages/growth/Growth";
 import Road from "./pages/road/Road";
 import Home from "./pages/home/Home";
 import Health from "./pages/health/Health"
+import Option from "./pages/option/Option";
 function App() {
   return (
      <>
@@ -37,6 +38,8 @@ function App() {
         <Route path='/growth' element={<Growth/>} />
         <Route path='/road' element={<Road/>} />
         <Route path='/health' element={<Health/>} />
+        <Route path='/options' element={<Option/>}/>
+
       </Routes>
 
     </>
