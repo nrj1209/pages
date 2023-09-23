@@ -14,11 +14,13 @@ import Think from "./pages/think/Think"
 import Idea from "./pages/idea/Idea";
 import Growth from "./pages/growth/Growth";
 import Road from "./pages/road/Road";
+import Home from "./pages/home/Home";
+import Health from "./pages/health/Health"
 function App() {
   return (
      <>
       <Routes>
-        <Route path='/' element={<Plywood/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/plywood' element={<Plywood/>} />
         <Route path='/timber' element={<Timber/>} />
         <Route path='/antiques' element={<Antiques/>}/>
@@ -34,7 +36,9 @@ function App() {
         <Route path='/idea' element={<Idea/>} />
         <Route path='/growth' element={<Growth/>} />
         <Route path='/road' element={<Road/>} />
+        <Route path='/health' element={<Health/>} />
       </Routes>
+
     </>
   );
 }
