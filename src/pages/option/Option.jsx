@@ -9,7 +9,6 @@ const Option = () => {
         <div className='option-main'>
             <div className='option-main-div'>
                 <img className='option-img' src={left}/>
-                <br/>
                 <p className='option-main-content'>For-Profit</p>
             </div>
             <div className='option-main-div'>

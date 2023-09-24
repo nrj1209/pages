@@ -15,17 +15,13 @@ const Component3 = () => {
       </div>
       <div className=' health-Component3-div2'>
         <p className='health-Component3-div2-text'>
-          After growing Vinay Cements for over 15 years, we realized there was another dire shortage of cement in North-East India in the early 2000s. Infrastructural development was at an all-time high and cement prices were soaring because of the deficit in supply.
-        </p>
+        Lorem ipsum dolor sit amet consectetur. Urna diam ut felis fermentum convallis etiam eget risus pharetra. Dictumst viverra feugiat euismod scelerisque. Eget facilisi massa tincidunt turpis accumsan in risus ultrices iaculis.        </p>
         <p className='health-Component3-div2-text'>
-          Paradoxically the region still had a wealth of untapped raw materials. ​It was a rare opportunity to turn economic struggles into triumph and it sparked the inception of health Cements​.
-        </p>
+        Cursus amet elit auctor netus accumsan massa ligula enim. Ornare consectetur lorem lacus vestibulum a sed vulputate. Augue venenatis tempus tincidunt tortor gravida odio suscipit nec in. Tortor elit enim id eu malesuada venenatis ac.        </p>
         <p className='health-Component3-div2-text'>
-          The company is a manifestation of the founders ​visionary ​leadership, ​strategic ingenuity, and audacious risk-taking​. This was ​fortified by the​ir ​deep understanding of supply chain dynamics, a ​rich ​two-decade legacy in the cement industry, and over forty years of industrial acumen.
-        </p>
+        Vel praesent ultrices quam habitasse placerat fames dictumst blandit. Elementum id aliquet id quam pellentesque suspendisse quisque in.        </p>
         <p className='health-Component3-div2-text'>
-          As a beacon of innovation ​health ​reshaped industry benchmarks with an EBITDA that eclipses the industry average by 2.5 times. ​​​The company is a testament to the​ ​​founders' ​unyielding perseverance​ and hard work.
-        </p>
+        Neque pharetra viverra diam est id eget faucibus mi tincidunt. Fermentum neque donec adipiscing commodo mi sem. Nisi massa sagittis integer lacus. Consectetur blandit egestas fames orci. Semper morbi cras blandit.        </p>
       </div>
       {/* </div> */}
       <div className=' health-Component3-img-container'>

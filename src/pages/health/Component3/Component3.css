@@ -20,7 +20,7 @@
 .health-Component3-heading {
     color: var(--white, #262626);
     font-family: 'Skywalks';
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -76,7 +76,7 @@
     width: 100%;
 }
 .health-Component3-img{
-    width: 70px;
+    width: 110px;
 }
 /* .health-Component3-left {
     width: 140px;
@@ -117,6 +117,8 @@
     }
 }
 
+    
+
 @media screen and (min-width: 742px) and (max-width: 970px){
     /* .health-Component3-left {
     width: 215px;
@@ -132,4 +134,10 @@
 .health-Component3-img{
     width: 215px;
 }
+}
+
+@media screen and (min-width:320px) and (max-width:424px) {
+    .health-Component3-img{
+        width: 90px;
+    }
 }
