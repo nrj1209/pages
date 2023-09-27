@@ -17,6 +17,7 @@ import Road from "./pages/road/Road";
 import Home from "./pages/home/Home";
 import Health from "./pages/health/Health"
 import Option from "./pages/option/Option";
+import Story from "./pages/story/Story";
 function App() {
   return (
      <>
@@ -39,7 +40,7 @@ function App() {
         <Route path='/road' element={<Road/>} />
         <Route path='/health' element={<Health/>} />
         <Route path='/options' element={<Option/>}/>
-
+        <Route path='/story' element={<Story/>}/>
       </Routes>
 
     </>
