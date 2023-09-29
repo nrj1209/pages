@@ -1,5 +1,5 @@
 import React from 'react'
-import HorizontalScroll from "react-scroll-horizontal";
+import HorizontalScroll from "react-horizontal-scroll";
 import Component1 from './Component1/Component1'
 import Component2 from './Component2/Component2'
 import Component3 from './Component3/Component3'
