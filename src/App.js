@@ -18,6 +18,8 @@ import Home from "./pages/home/Home";
 import Health from "./pages/health/Health"
 import Option from "./pages/option/Option";
 import Story from "./pages/story/Story";
+import About from "./pages/aboutus/About";
+import Mission from "./pages/mission/Mission";
 function App() {
   return (
      <>
@@ -41,6 +43,8 @@ function App() {
         <Route path='/health' element={<Health/>} />
         <Route path='/options' element={<Option/>}/>
         <Route path='/story' element={<Story/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/mission' element={<Mission/>}/>
       </Routes>
 
     </>

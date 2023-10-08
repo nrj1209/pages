@@ -32,6 +32,13 @@ code {
     url("../src/fonts/DidoneRoomNumbers.otf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"),
+    url("../src/fonts/Lato-Black.ttf") format("truetype");
+  font-weight: normal;
+}
 *{
   margin: 0px;
   padding: 0px;
