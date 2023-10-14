@@ -33,7 +33,7 @@ import Component31 from './Component31/Component31';
 const Story = () => {
   return (
     <div  style={{height: '100vh', width: '100vw'}}>
-      <HorizontalScroll reverseScroll={true} >
+      {/* <HorizontalScroll reverseScroll={true} > */}
         <Component1 />
         <Component2 />
         <Component3/>
@@ -64,7 +64,7 @@ const Story = () => {
         <Component29/>
         <Component30/>
         <Component31/>
-      </HorizontalScroll>
+      {/* </HorizontalScroll> */}
     </div>
   )
 }
