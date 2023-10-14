@@ -20,9 +20,16 @@ import Option from "./pages/option/Option";
 import Story from "./pages/story/Story";
 import About from "./pages/aboutus/About";
 import Mission from "./pages/mission/Mission";
+import Values from "./pages/values/Values";
+import Education from "./pages/education/Education";
+import Contact from "./pages/contact/Contact"
+import Navbar from "./pages/contact/components/navbar/Navbar";
+import Main from './pages/main/main'
+
 function App() {
   return (
      <>
+     <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/plywood' element={<Plywood/>} />
@@ -39,12 +46,16 @@ function App() {
         <Route path='/think' element={<Think/>} />
         <Route path='/idea' element={<Idea/>} />
         <Route path='/growth' element={<Growth/>} />
-        <Route path='/road' element={<Road/>} />
+        <Route path='/profit' element={<Road/>} />
         <Route path='/health' element={<Health/>} />
         <Route path='/options' element={<Option/>}/>
         <Route path='/story' element={<Story/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/mission' element={<Mission/>}/>
+        <Route path='/values' element={<Values/>}/>
+        <Route path='/education' element={<Education/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='non-profit' element={<Main/>}/>
       </Routes>
 
     </>
