@@ -32,7 +32,7 @@ import Component30 from './Component30/Component30';
 import Component31 from './Component31/Component31';
 const Story = () => {
   return (
-    <div  style={{height: '100vh', width: '100vw'}}>
+    <div className='Story_Component'  style={{height: '100vh', width: '100vw'}}>
       {/* <HorizontalScroll reverseScroll={true} > */}
         <Component1 />
         <Component2 />

@@ -4,25 +4,25 @@ import heading from './assets/heading.png'
 
 const Component16 = () => {
   return (
-    <div className='Component15-1988-div'>
-      <div className='Component15-1988-heading-div'>
-        <div className='Component15-1988-heading-content'>
-            <p className='Component15-1988-heading-content-1'>
-            1988
+    <div className='Component16-1998-div'>
+      <div className='Component16-1998-heading-div'>
+        <div className='Component16-1998-heading-content'>
+            <p className='Component16-1998-heading-content-1'>
+            1998
             </p>
-            <p className='Component15-1988-heading-content-2'>
+            <p className='Component16-1998-heading-content-2'>
             Building Dreams with Saroj Cements           
             </p>
       </div>
       </div>
       
-      <img className='Component15-1988-img' src={heading} />
+      <img className='Component16-1998-img' src={heading} />
 
-      <div className='Component15-1988-main'>
-        <div className='Component15-1988-main-div'>
-          <p className='Component15-1988-content'>
+      <div className='Component16-1998-main'>
+        <div className='Component16-1998-main-div'>
+          <p className='Component16-1998-content'>
           In a move to further their foothold in the cement industry, they launched Saroj Cements. The venture underscored the Bawri Group's commitment to sustainable development and creating value for society          </p>
-          <p className='Component15-1988-content'>
+          <p className='Component16-1998-content'>
           This further enhanced the Group's reputation as pioneers of industry and commerce in the private sector.          </p>
         </div>
         <div className='timeline-container'>
@@ -33,7 +33,7 @@ const Component16 = () => {
             </div>
             <div className='dot'>
             <div className='dot-info'>
-              <p className='year'>1988</p>
+              <p className='year'>1998</p>
             </div>
               <div className='dot-inner'>
               </div>

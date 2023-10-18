@@ -10,7 +10,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
-.Component15-1988-div{
+.Component16-1998-div{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.Component15-1988-img{
+.Component16-1998-img{
     width: 100%;
     min-height: 40vh;
     object-fit: cover;
@@ -26,19 +26,19 @@
 }
 
 
-.Component15-1988-heading-content{
+.Component16-1998-heading-content{
     display: flex;   
     flex-direction: row;
     width: 100%;
     justify-content: center;
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.Component15-1988-main{
-   background-image: url('../Component15/assets/main.jpeg');
+.Component16-1998-main{
+   background-image: url('../Component16/assets/main.jpeg');
    width: 100%;
     flex: 1;
    object-fit: cover;
@@ -50,7 +50,7 @@
 
 }
 
-.Component15-1988-main-div{
+.Component16-1998-main-div{
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
@@ -60,7 +60,7 @@
     align-items: center;
 }
 
-.Component15-1988-content{
+.Component16-1998-content{
 color: var(--black, #262626);
 font-family: 'Lato';
 font-size: 12px;
@@ -71,10 +71,10 @@ letter-spacing: 1px;
 align-self: flex-start;
 }
 
-.Component15-1988-heading-content-1{
+.Component16-1998-heading-content-1{
     color: var(--white, #FFF);
 font-family: 'Didone Room Numbers';
-font-size: 20px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -88,10 +88,10 @@ background-color:#262626;
 text-wrap: nowrap;
 }
 
-.Component15-1988-heading-content-2{
+.Component16-1998-heading-content-2{
     color: var(--black, #262626);
 font-family: Skywalks;
-font-size: 20px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 131.5%; /* 63.12px */
@@ -169,28 +169,28 @@ text-wrap: nowrap;
 }
 
 @media screen  and (min-width:768px){
-    .Component15-1988-content{
+    .Component16-1998-content{
         font-size: 18px;
         text-align: left;
         line-height: 30px;
     }
 
-    .Component15-1988-main-div{
+    .Component16-1998-main-div{
         padding-left: 80px;
         padding-right: 80px;
     }
 
-    .Component15-1988-main{
+    .Component16-1998-main{
         padding-top: 20px;
     }
 
-    .Component15-1988-heading-content-1{
+    .Component16-1998-heading-content-1{
             font-size: 38px;
             padding-left: 30px;
             padding-right: 30px;
     }
 
-    .Component15-1988-heading-content-2{
+    .Component16-1998-heading-content-2{
             font-size: 38px;
         
             padding-left: 30px;
@@ -199,5 +199,9 @@ text-wrap: nowrap;
     .year{
         font-size:20px;
         text-wrap: nowrap;
+    }
+
+    .Component16-1998-heading-content{
+        top: 20px;
     }
 }

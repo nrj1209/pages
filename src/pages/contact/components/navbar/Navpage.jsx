@@ -63,7 +63,9 @@ const Navpage = ({setIsOpen}) => {
           <Dropdown title="Contact Us" options={contactUsOptions} setImage={setImage} showDropdown={false} setIsPageOpen={setIsOpen} />
         </div>
         <div className="image-container-1">
-          {image && <img className="dropdown-image" src={image} />}
+          {image && image.nav3 && <img className="dropdown-image" src={image.nav3} />}
+          {image && image.nav2 && <img className="dropdown-image" src={image.nav2} />}
+          {image && image.nav1 && <img className="dropdown-image" src={image.nav1} />}
         </div>
       </div>
     </div>

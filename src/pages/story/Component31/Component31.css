@@ -28,7 +28,7 @@
     width: 100%;
     justify-content: center;
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -196,5 +196,8 @@ text-wrap: nowrap;
     .year{
         font-size:20px;
         text-wrap: nowrap;
+    }
+    .Component31-2006-heading-content{
+        top: 20px;
     }
 }

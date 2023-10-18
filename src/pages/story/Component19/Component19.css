@@ -28,7 +28,7 @@
     width: 100%;
     justify-content: center;
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -70,7 +70,7 @@ align-self: flex-start;
 .Component19-2004-heading-content-1{
     color: var(--white, #FFF);
 font-family: 'Didone Room Numbers';
-font-size: 15px;
+font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -78,8 +78,8 @@ letter-spacing: 5.768px;
 /* padding: 20px; */
 padding-top: 5px;
 padding-bottom: 5px;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 8px;
+padding-right: 8px;
 background-color:#262626;
 text-wrap: nowrap;
 }
@@ -87,15 +87,15 @@ text-wrap: nowrap;
 .Component19-2004-heading-content-2{
     color: var(--black, #262626);
 font-family: Skywalks;
-font-size: 15px;
+font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 131.5%; /* 63.12px */
 background-color: white;
 padding-top: 5px;
 padding-bottom: 5px;
-padding-left: 15px;
-padding-right: 15px;
+padding-left: 9px;
+padding-right: 9px;
 text-wrap: nowrap;
 
 }
@@ -195,5 +195,9 @@ text-wrap: nowrap;
     .year{
         font-size:20px;
         text-wrap: nowrap;
+    }
+
+    .Component19-2004-heading-content{
+        top: 20px;
     }
 }

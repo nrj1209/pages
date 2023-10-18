@@ -26,6 +26,8 @@
   justify-content: space-between;
   height: 100%;
   gap: 120px;
+  padding-left: 10px;
+
 }
 
 .image-container-1 {
@@ -37,6 +39,9 @@
 @media screen and (min-width: 768px) {
   .image-container-1 { 
   display: block;
+  }
+  .dropdown-container{
+    padding-left: 0px;
   }
 }
 

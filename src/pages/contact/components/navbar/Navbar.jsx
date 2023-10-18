@@ -17,7 +17,7 @@ const Navbar =() => {
     <div className="header">
       <div className='header-inner-container'>
         <div>
-          <p className="header-logo">BawriGroup</p>
+          <p className="company-logo">BawriGroup</p>
         </div>
         <div onClick={handleClick}>
           <img className="navigation-icon" src={nav_icon} alt="Your SVG" />

@@ -32,7 +32,7 @@
     width: 100%;
     justify-content: center;
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -74,7 +74,7 @@ align-self: flex-start;
 .Component15-1988-heading-content-1{
     color: var(--white, #FFF);
 font-family: 'Didone Room Numbers';
-font-size: 20px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -91,7 +91,7 @@ text-wrap: nowrap;
 .Component15-1988-heading-content-2{
     color: var(--black, #262626);
 font-family: Skywalks;
-font-size: 20px;
+font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 131.5%; /* 63.12px */
@@ -198,5 +198,9 @@ text-wrap: nowrap;
     .year{
         font-size:20px;
         text-wrap: nowrap;
+    }
+
+    .Component15-1988-heading-content{
+        top: 20px;
     }
 }
